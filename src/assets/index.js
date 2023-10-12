@@ -7,19 +7,19 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import azure from "./tech/azure.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import jenkins from "./tech/jenkins.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import kubernetes from "./tech/kubernetes.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import kafka from "./tech/kafka.png";
+import postgresql from "./tech/postgresql.png";
+import spring from "./tech/spring.png";
+import aws from "./tech/aws.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,19 +39,19 @@ export {
   github,
   menu,
   close,
-  css,
+  azure,
   docker,
-  figma,
+  jenkins,
   git,
-  html,
+  kubernetes,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  kafka,
+  postgresql,
+  spring,
+  aws,
   meta,
   shopify,
   starbucks,

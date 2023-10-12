@@ -5,25 +5,23 @@ import {
     creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
+    spring,
+    kubernetes,
+    azure,
     reactjs,
-    redux,
-    tailwind,
+    kafka,
+    postgresql,
     nodejs,
     mongodb,
     git,
-    figma,
+    jenkins,
     docker,
-    meta,
     starbucks,
     tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    aws,
   } from "../assets";
   
   const navLinks = [
@@ -62,32 +60,32 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "Kubernetes",
+      icon: kubernetes,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Azure",
+      icon: azure,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Spring",
+      icon: spring,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Kafka",
+      icon: kafka,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "PostgreSQL",
+      icon: postgresql,
     },
     {
       name: "Node JS",
@@ -98,16 +96,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "AWS",
+      icon: aws,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Jenkins",
+      icon: jenkins,
     },
     {
       name: "docker",
