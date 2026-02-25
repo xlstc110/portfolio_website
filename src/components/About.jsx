@@ -47,11 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+          Experienced Software Engineer with 4+ years in building scalable web applications, designing microservices, and optimizing system performance. Proficient in Java, Spring Boot, Angular, and AWS, with a strong background in cloud computing and DevOps.
+          Passionate about problem-solving, system architecture, and driving high-impact projects in Agile environments. Proven track record in improving performance, enhancing security, and mentoring new team members.
       </motion.p>
 
       {/* here are the service cards to display skills from the constant folder */}

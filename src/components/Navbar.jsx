@@ -25,7 +25,7 @@ const Navbar = () => {
           {/* Change the value of W- and H- to adjust logo size */}
           <img src={logo} alt="logo" className="w-20 h-20 object-contain"></img>
           <p className="text-white text-[18px] font-bold cursor-pointer">
-            Robbie Weeks <span>| Java | Spring Boot | JavaScript | React</span>
+            Robbie Weeks <span>| Java | SpringBoot | Angular | AWS</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

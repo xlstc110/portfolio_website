@@ -6,18 +6,17 @@ import {
     web,
     javascript,
     spring,
-    kubernetes,
-    azure,
+    angular,
+    java,
     reactjs,
     kafka,
     postgresql,
     nodejs,
     mongodb,
-    git,
     jenkins,
-    docker,
-    starbucks,
-    tesla,
+    revature,
+    techsur,
+    infosys,
     carrent,
     jobit,
     tripguide,
@@ -41,40 +40,41 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "Java Developer",
-      icon: mobile,
-    },
-    {
       title: "API Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Web Developer",
+      icon: web,
+    },
+    {
+      title: "Dev Ops",
+      icon: mobile,
+    },
+    {
+      title: "System Enhancement",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "Kubernetes",
-      icon: kubernetes,
+      name: "Java",
+      icon: java,
     },
     {
-      name: "Azure",
-      icon: azure,
+      name: "SpringBoot",
+      icon: spring,
+    },
+    {
+      name: "Angular",
+      icon: angular,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "Spring",
-      icon: spring,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -100,28 +100,33 @@ import {
       icon: aws,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
       name: "Jenkins",
       icon: jenkins,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
   const experiences = [
     {
-      title: "Senior Associate Software Engineer",
+      title: "Full-Stack Software Engineer",
+      company_name: "TechSur Solutions",
+      icon: techsur,
+      iconBg: "#383E56",
+      date: "January 2024 - February 2024",
+      points: [
+        "- Designed, developed, and maintained scalable full-stack web applications, supporting production-level workloads.",
+        "- Built and improved 10+ RESTful API features using Java 17 in Spring Boot 3, resulting in more proficient and secured API respond.",
+        "- Built and improved 10+ UI components using Angular 17 in TypeScript 5, resulting in a more engaging user experience.",
+        "- Developed Selenium scripts in Java to validate user interface components; created JMeter tests for API performance assessment.",
+        "- Collaborated with cross-functional team members to analyze and fix issues based on incidents reported by users through an internal application.",
+      ],
+    },
+    {
+      title: "Software Engineer",
       company_name: "Infosys",
-      icon: starbucks,
+      icon: infosys,
       iconBg: "#383E56",
       date: "July 2021 - August 2023",
       points: [
-        "SCE.com: South California Edison official production website.",
         "-Developed responsive components using JavaScript with React and Java with Spring Boot, following SDLC and Agile workflow.",
         "-Monitored website performance using Quantum Metric, Okta, and Azure, ensuring optimal user experience and addressing performance bottlenecks.",
         "-Collaborated with cross-functional teams to analyze and prioritize monthly tickets from Jira, providing solution approaches and ensuring delivery of website enhancements.",
@@ -131,7 +136,7 @@ import {
     {
       title: "Software Engineer",
       company_name: "Revature",
-      icon: tesla,
+      icon: revature,
       iconBg: "#E6DEDD",
       date: "March 2021 - July 2021",
       points: [
@@ -147,94 +152,53 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "Robbie is a 'whatever it takes' person, he is willing to learn and work until his goal is accomplished.",
       name: "Kun Lin",
-      designation: "CFO",
-      company: "Acme Co",
+      designation: "Software Engineer",
+      company: "Oracle",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "Robbie is unafraid of failure, viewing each setback as a learning opportunity on his journey to success.",
       name: "Kolung",
-      designation: "COO",
-      company: "DEF Corp",
+      designation: "Software Engineer",
+      company: "Amazon",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Chris",
-      designation: "CTO",
-      company: "456 Enterprises",
+      designation: "Software Engineer",
+      company: "TechSur Solution",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Shopping Site",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SpringBoot",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "OAuth",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    
   ];
   
   export { navLinks, services, technologies, experiences, testimonials, projects };
